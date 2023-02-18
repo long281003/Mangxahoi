@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+.main {
+  display: flex;
+  /* position: relative; */
+}
+/* menu */
+.menu {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: gray;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+}
+#vuive5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#vuive4 {
+  display: flex;
+}
+.menu div {
+  margin: 10px;
+}
+#icon {
+  display: flex;
+}
+#icon img {
+  width: 30px;
+  height: auto;
+  margin: 0px 10px;
+}
+/* menu c2 */
+#dangxuat {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0px;
+}
+#tinnhan,
+#thongbao,
+#nhacnho {
+  border: 1px solid black;
+  width: 400px;
+  height: 490px;
+  margin-top: 60px;
+  margin-left: -800px;
+  background-color: #f0f0f0;
+}
+#tinnhan p {
+  border-bottom: 1px solid black;
+}
+#thongbao p {
+  border-bottom: 1px solid black;
+}
+#nhacnho p {
+  border-bottom: 1px solid black;
+}
+.main {
+  display: flex;
+}
+.tong {
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto auto 650px;
+}
+/* Thông tin người dùng */
+.information {
+  width: 250px;
+  height: 200px;
+  margin: 80px;
+  position: fixed;
+}
+.information-person {
+  border-bottom: 2px solid gray;
+  display: flex;
+}
+.information-person div {
+  margin: 10px;
+}
+.information-class {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+}
+.information-class div {
+  border: 1px solid black;
+  width: 110px;
+  height: 35px;
+  margin: 5px;
+  text-align: center;
+  line-height: 35px;
+}
+
+/* Chọn khối lớp */
+#vuive2 {
+  display: flex;
+  width: 1050px;
+  justify-content: center;
+  align-items: center;
+}
+#vuive2 div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 5px 5px 5px;
+  border-radius: 5%;
+  background-color: pink;
+}
+
+/* body menu */
+.bodyy > div {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.body-text div img {
+  width: 130px;
+  height: auto;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.bodyy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#vuive2 div:hover {
+  background: red;
+}
+a {
+  text-decoration: none;
+}
+#namename,
+#namename1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}

@@ -1,0 +1,190 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+/* menu */
+.menu {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: gray;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+}
+#vuive5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#vuive5 span :hover {
+  background-color: orange;
+}
+#vuive4 {
+  display: flex;
+}
+.menu div {
+  margin: 10px;
+}
+#icon {
+  display: flex;
+}
+#icon img {
+  width: 30px;
+  height: auto;
+  margin: 0px 10px;
+}
+/* menu c2 */
+#dangxuat {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0px;
+}
+#tinnhan,
+#thongbao,
+#nhacnho {
+  border: 1px solid black;
+  width: 400px;
+  height: 490px;
+  margin-top: 60px;
+  margin-left: -800px;
+  background-color: #f0f0f0;
+}
+#tinnhan p {
+  border-bottom: 1px solid black;
+}
+#thongbao p {
+  border-bottom: 1px solid black;
+}
+#nhacnho p {
+  border-bottom: 1px solid black;
+}
+
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+/* menu-in4 */
+
+#main-2 {
+  display: flex;
+}
+/* #main-2 div {
+  margin: 40px;
+} */
+#in4 {
+  margin: 0px;
+}
+#menu-in4-1 {
+  border: 1px solid rgb(223, 221, 221);
+  display: flex;
+  width: 830px;
+  height: 50px;
+  margin-top: 60px;
+}
+#menu-in4-1 div:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+  height: 40px;
+}
+#menu-in4-1 div {
+  margin: 10px;
+  font-weight: bold;
+}
+#thongbao-1 {
+  border: 1px solid rgb(225, 222, 222);
+  margin-top: 10px;
+  width: 830px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#thongbao-1 div {
+  padding: 20px;
+}
+#in4-2 {
+  border: 1px solid rgb(216, 216, 216);
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#anh {
+  width: 270px;
+  margin: 5px;
+}
+#in4-2-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#in4-2-1 div:hover {
+  background-color: gray;
+}
+#in4-2-1 div {
+  border-bottom: 1px solid rgb(224, 221, 221);
+  border-top: 1px solid rgb(224, 221, 221);
+  border-left: 1px solid rgb(224, 221, 221);
+  border-right: 1px solid rgb(224, 221, 221);
+  width: 135px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#in4-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  text-align: center;
+  margin-left: 30px;
+}
+#in4-3 div:hover {
+  background-color: gray;
+  height: 30px;
+}
+#in4-3 div {
+  width: 120px;
+  height: 30px;
+  border: 1px solid rgb(224, 223, 223);
+  margin: 10px;
+  line-height: 30px;
+}
+#name {
+  border-bottom: 1px solid rgb(224, 219, 219);
+  text-align: center;
+  height: 30px;
+  margin-top: 20px;
+}
+#name a:hover {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+#button {
+  border-radius: 3px;
+  background-color: #ff683a;
+  border: none;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+#name2,
+#name {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
